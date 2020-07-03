@@ -13,6 +13,18 @@ height: 90px;
 border-radius: 5px;
 }
 
+
+.music_btn {
+    display: block;
+    background: #000;
+    color: #fff;
+    padding: 0.8rem 1rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+
+  }
+
   
 #navbar ul {
 
@@ -26,6 +38,7 @@ border-radius: 5px;
 
 #navbar ul li{
 display: inline;
+cursor: pointer;
 }
 
 #navbar ul li a {
@@ -46,13 +59,14 @@ background-color: indigo;
 .main{
 background-color: #E5E4D7 ;
 margin-left: 10px;
-margin-right: 320px;
+margin-right: 380px;
 margin-top: 10px;
 margin-bottom: 10px;
 border-radius: 5px;
 padding: 20px;
 font-size: 110%;
 }
+
 .sideright{
 background-color: #E5E4D7;
 margin-left: 10px;
@@ -60,25 +74,52 @@ margin-right: 10px;
 margin-top: 0px;
 margin-bottom: 10px;
 border-radius: 5px;
-padding: 20px;
-width: 260px;
+padding: 10px;
+width: 340px;
 float: right;
 font-size: 105%;
 clear: right;
 }
 .imagesidebar{
-background-color: plum;
+background-color: #FFDAB9;
 margin-left: 10px;
 margin-right: 10px;
 margin-top: 0px;
 margin-bottom: 10px;
 border-radius: 5px;
-padding: 20px;
-width: 260px;
+padding: 10px;
+width: 340px;
 float: right;
 font-size: 105%;
 clear: right;
 }
+
+.images{
+border-radius: 5px;
+padding: 10px;
+max-width: 160px;
+
+}
+
+.container{
+background-color: #E5E4D7 ;
+margin-left: 10px;
+margin-right: 380px;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+padding: 20px;
+font-size: 110%;
+display: flex;
+}
+
+.img-col{
+flex-basic: 40%;
+}
+
+
+
+
 #footer {
 background-color: lightblue;
 margin: 10px;
@@ -102,5 +143,12 @@ color: indigo;
 text-align: center;
 font-family: "Comic Sans MS", "Gill Sans";
 text-shadow: 3px 3px 20px orange;
-
+}
+h4{
+font-size: 150%;
+color: indigo;
+text-align: justify;
+font-family: "Monotype Corsovia", "Gill Sans";
+text-shadow: 3px 3px 20px lightgreen;
+font-style: oblique;
 }
