@@ -1,13 +1,13 @@
 
 /*============= layout section==============   */
 body{
-background-color: #191970;
+background-color: #0B0C10;
 margin: 0px;
 font-family: verdana, georgia, helvetica;
 font-size: 14px;
 }
 #header{
-background-color: lightblue;
+background-color: #1F2833;
 margin: 20px;
 height: 90px;
 border-radius: 5px;
@@ -15,12 +15,14 @@ border-radius: 5px;
 
 
 .music_btn {
-    display: block;
-    background: #000;
-    color: #fff;
-    padding: 0.8rem 1rem;
-    margin-left: 0.5rem;
-    margin-top: 0.5rem;
+    display: inline;
+    background: #45A29E;
+    color: #0B0C10;
+    padding: 5px;
+    margin-left: 0px;
+    margin-top:  0.2em;
+    margin-right: 0px;
+    margin-bottom: 20px;
     cursor: pointer;
 
   }
@@ -31,7 +33,7 @@ border-radius: 5px;
 padding: 5px;
 list-style-type: none;
 text-align: center;
-background-color: lightblue;
+background-color: #1F2833;
 margin: 10px;
 border-radius: 5px;
 }
@@ -45,30 +47,32 @@ cursor: pointer;
 text-decoration: none;
 font-family: Arial;
 padding: 2em 1em;
-color: indigo;
+color: #C5C6C7;
 background color: lightblue;
 font-weight: bold; 
 }
 
 #navbar ul li a:hover {
-color: lightblue;
-background-color: indigo; 
+color: #C5C6C7;
+background-color: #45A29E; 
 }
 
 
 .main{
-background-color: #E5E4D7 ;
+background-color: #1F2833 ;
 margin-left: 10px;
 margin-right: 380px;
 margin-top: 10px;
 margin-bottom: 10px;
 border-radius: 5px;
 padding: 20px;
-font-size: 110%;
+font-size: 115%;
+color: #C5C6C7;
+
 }
 
 .sideright{
-background-color: #E5E4D7;
+background-color: #1F2833;
 margin-left: 10px;
 margin-right: 10px;
 margin-top: 0px;
@@ -79,9 +83,10 @@ width: 340px;
 float: right;
 font-size: 105%;
 clear: right;
+color: #C5C6C7;
 }
 .imagesidebar{
-background-color: #FFDAB9;
+background-color: #1F2833;
 margin-left: 10px;
 margin-right: 10px;
 margin-top: 0px;
@@ -102,7 +107,7 @@ max-width: 160px;
 }
 
 .container{
-background-color: #E5E4D7 ;
+background-color: #1F2833 ;
 margin-left: 10px;
 margin-right: 380px;
 margin-top: 10px;
@@ -113,6 +118,26 @@ font-size: 110%;
 display: flex;
 }
 
+
+.sidecontainer{
+background-color: #1F2833;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 0px;
+margin-bottom: 10px;
+border-radius: 5px;
+padding: 10px;
+width: 340px;
+float: right;
+font-size: 105%;
+clear: right;
+display: block;
+}
+
+
+
+
+
 .img-col{
 flex-basic: 40%;
 }
@@ -121,34 +146,48 @@ flex-basic: 40%;
 
 
 #footer {
-background-color: lightblue;
+background-color: #1F2833;
 margin: 10px;
 height: 50px;
 clear: both;
+
 }
+
+
+
+
+
 /*   heading section */
 h1{
 font-size: 125%;
-color: #ce282e;
+color: #45A29E;
 text-decoration: underline;
+font-style: oblique;
+font-weight: bold;
+
+
 }
 h2{
 font-size: 125%;
-color: darkblue;
+color: #45A29E;
 text-decoration: underline;
+font-style: oblique;
+font-weight: bold;
+
 }
 h3{
 font-size: 250%;
-color: indigo;
+color: #66FCF1;
 text-align: center;
 font-family: "Comic Sans MS", "Gill Sans";
-text-shadow: 3px 3px 20px orange;
+text-shadow: 3px 3px 20px #C5C6C7;
+
 }
 h4{
 font-size: 150%;
-color: indigo;
+color: #C5C6C7;
 text-align: justify;
 font-family: "Monotype Corsovia", "Gill Sans";
-text-shadow: 3px 3px 20px lightgreen;
+text-shadow: 0.25px 0.25px  #66FCF1;
 font-style: oblique;
 }
